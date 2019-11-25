@@ -1,0 +1,20 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+pokeapp/node_modules
+pokeapp/.pnp
+.pnp.js
+
+# production
+pokeapp/build
+
+# misc
+.DS_Store
+pokeapp/.DS_Store
+pokeapp/.env.local
+pokeapp/.env.development.local
+pokeapp/.env.test.local
+pokeapp/.env.production.local
+pokeapp/npm-debug.log*
+pokeapp/yarn-debug.log*
+pokeapp/yarn-error.log*
